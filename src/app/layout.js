@@ -10,7 +10,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 // 🔁 Replace with your actual Vercel URL after first deploy
 // e.g. "https://mafujur-rahman.vercel.app"
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+const siteUrl = "https://mafujur-web-developer.vercel.app/";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -59,7 +59,7 @@ export const metadata = {
       "Full-stack web developer crafting secure, scalable, and modern digital experiences with Next.js, React, Node.js, and TypeScript.",
     images: [
       {
-        url: "/images/jewel.png",
+        url: "/images/jewel-developer.png",
         width: 1200,
         height: 630,
         alt: "Mafujur Rahman — Full-Stack Web Developer",
@@ -72,7 +72,7 @@ export const metadata = {
     title: "Mafujur Rahman — Full-Stack Web Developer",
     description:
       "Full-stack web developer crafting secure, scalable, and modern digital experiences.",
-    images: ["/images/jewel.png"],
+    images: ["/images/jewel-developer.png"],
     // creator: "@yourhandle", // add later if you have one
   },
 
