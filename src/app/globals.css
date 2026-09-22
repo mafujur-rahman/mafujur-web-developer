@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+:root {
+  --font-plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-plus-jakarta-sans);
+}
+
+html, body {
+  overflow-x: hidden !important;
+}
+
+
+
+.section-padding {
+  @apply px-[15px] md:px-[40px] lg:px-[58px] xl:px-[15px] 
+}
+
+.common-btn-size {
+  @apply text-[20px]  mr-5
+}
